@@ -1,0 +1,222 @@
+[2021-03-16 09:39:18] INFO [<module>: run.py, 6] ================================== 测试开始 ==================================
+[2021-03-16 09:39:18] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): kf.miaola.info:443
+[2021-03-16 09:39:21] DEBUG [_make_request: connectionpool.py, 396] https://kf.miaola.info:443 "POST /login.php HTTP/1.1" 200 None
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 9] 测试用例：test_user_login_normal
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 10] url：https://kf.miaola.info/login.php
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 11] 请求参数：{"pwuser":"352282664", "pwpwd":"7758258Gz","submit":"%B5%C7%C2%BC",
+                "cktime":"31536000","hideid":"0","lgt":"1","step":"2",
+                "jumpurl":"https%3A%2F%2Fkf.miaola.info"}
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 12] 期望结果：您已经顺利登录
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 13] 实际结果：<!---->
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="phpwind,board,php,mysql,forum">
+<meta http-equiv="refresh" content="1;url=https://kf.miaola.info">
+<title>绯月ScarletMoon  </title>
+<style type="text/css">
+body{ background: #f0f4ff; color: #FF3333;font:9pt/200% Verdana;}
+a{text-decoration: none;color:#A824FF}
+a:hover{text-decoration: underline;}
+img{border:0;}
+</style>
+<style>body { font-family: sans-serif; }</style>
+<script>var resTimestamp = "1615797286";</script>
+</head>
+<body>
+<center>
+<div style="padding:15px 60px;border:1px solid #A99CFE;background:#F4FBFF ; text-align:center; margin:20% auto auto; width:55%">
+提示信息<br />
+<span style="font-size:14px;color:#ff3333;">您已经顺利登录</span><br /><a href="https://kf.miaola.info">如果您的浏览器没有自动跳转,请点击这里</a></div>
+</center>
+<script src="polyfill.min.user.js?V6.26.0"></script>
+<script charset="utf-8" src="Common.min.user.js?1615797286"></script>
+<script charset="utf-8" src="extra.user.js"></script>
+<span id="cnzz_stat_icon_1257832900" hidden></span><script src="https://s11.cnzz.com/z_stat.php?id=1257832900"></script>
+</body></html>
+<!---->
+[2021-03-16 09:39:21] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): kf.miaola.info:443
+[2021-03-16 09:39:21] DEBUG [_make_request: connectionpool.py, 396] https://kf.miaola.info:443 "POST /login.php HTTP/1.1" 200 None
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 9] 测试用例：test_user_login_password_wrong
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 10] url：https://kf.miaola.info/login.php
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 11] 请求参数：{"pwuser":"352282664", "pwpwd":"7758258G","submit":"%B5%C7%C2%BC",
+                "cktime":"31536000","hideid":"0","lgt":"1","step":"2",
+                "jumpurl":"https%3A%2F%2Fkf.miaola.info"}
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 12] 期望结果：密码错误或安全问题错误
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 13] 实际结果：
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>密码错误或安全问题错误,您还可以尝试 5 次 - 绯月ScarletMoon </title>
+<meta name="keywords" content="绯月,ACG论坛" />
+<meta name="description" content="绯月是一个以动漫、游戏、音乐、绘画等为主题的论坛。" />
+<base id="headbase" href="https://kf.miaola.info/" />
+<link rel="stylesheet" type="text/css" href="ys/style200722.css" />
+
+
+
+<script src="jquery.min.user.js?V2.2.4"></script>
+<script language="JavaScript">
+var imgpath = '1615855386';
+function getObj(id){
+	return document.getElementById(id);
+}
+function ietruebody(){
+	return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body;
+}
+function IsElement(id){
+	return document.getElementById(id)!=null ? true : false;
+}
+
+$(function(){
+$("#kf_topuser,#kf_information").hover(function(){
+	$("#kf_information").show();
+},function(){
+	$("#kf_information").hide();
+});
+})
+
+</script>
+
+
+
+
+
+<style>body { font-family: sans-serif; }</style>
+<script>var resTimestamp = "1615797286";</script>
+</head>
+<body>
+<div id="alldiv">
+
+<div class="drow"><div style="text-align:center;height:182px;">
+<a href="read.php?tid=873377&sf=1dc"><img src="ys/top03.jpg" width="1200" height="180"></a>
+</div></div>
+
+<div class="drow" style="height:40px;width:1198px;box-shadow:1px 1px 2px 2px #999999;margin-bottom:10px;">
+<div class="dcol" style="width:1000px;">
+	<div class="topmenuo">
+		<ul class="topmenuo1">
+        <li class="topmenuo3"><a href="index.php" style="width:150px;">K.F.&nbsp;绯月首页</a>
+        </li>
+        <li class="topmenuo3"><a href="javascript:;" style="width:100px;">Gal讨论</a>
+        <ul class="topmenuo2">
+		<li><a href="thread.php?fid=102">Galgame推荐</a></li>
+		<li><a href="thread.php?fid=106">Galgame新作信息</a></li>
+		<li><a href="thread.php?fid=52">Galgame综合讨论</a></li>
+        </ul>
+        </li>
+        <li class="topmenuo3"><a href="javascript:;" style="width:100px;">动漫/音乐</a>
+        <ul class="topmenuo2">
+		<li><a href="thread.php?fid=84">动漫综合讨论区</a></li>
+        </ul>
+        </li>
+        <li class="topmenuo3"><a href="javascript:;" style="width:100px;">游戏介绍</a>
+        <ul class="topmenuo2">
+		<li><a href="https://galge.fun/subjects" target="_blank">游戏介绍</a></li>
+		<li><a href="https://galge.fun/downloads" target="_blank">补丁下载</a></li>
+        </ul>
+        </li>
+		</ul>
+	</div>
+</div>
+<div class="dcol" style="width:198px;">
+	<div class="topmenuo">
+		<div class="topmenuo6" id="kf_topuser">
+
+	<a href="login.php" style="color:#FF6666;width:198px;">登录 | 注册</a>
+
+		</div>
+		<div class="topmenuo7" id="kf_information">
+
+	<ul>
+    <li><a href="register.php">注册新用户</a></li>
+    <li><a href="login.php">会员登录</a></li>
+    </ul>
+
+    	</div>
+	</div>
+</div>
+</div>
+
+<div class="drow">
+
+
+
+<div class="dcol" style="width:326px;padding-top:5px;">
+
+
+
+
+	<div class="rightdiv tc">
+	<a href="register.php" class="rightbox1">注册新用户</a><br />
+    </div>
+    <div class="rightdiv tc">
+	<a href="login.php" class="rightbox1">会员登录</a><br />
+    </div>
+    
+
+
+</div>
+
+<div class="dcol" style="width:874px;padding-top:5px;">
+
+
+<div style="width:860px;text-align:center;font-size:16px;font-weight:bold;line-height:30px;">
+<br /><br />
+操作提示<br />
+密码错误或安全问题错误,您还可以尝试 5 次<br />
+<a href="javascript:history.go(-1);">返回上一步操作</a>
+<br />
+</div>
+
+</div>
+<div class="c"></div>
+
+<div class="line"></div>
+<table width="1200" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="980"><div style="text-align:left;line-height:24px;">更新版本 v180806 （<a href="faq.php?id=102" target="_blank">制作名单</a>） ( 2-0-006240 ) <br />
+	联系方式（邮箱）：<span style="color:#0000ff;">xinyangfeng0207@msn.com</span> (申诉、报错、版权内容处理等)
+	<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ff83dc734066b108cb0068c6118d230ce' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+    </div></td>
+  </tr>
+</table>
+</div></div>
+<script language="JavaScript" src="js/global.js"></script>
+<script language="JavaScript">
+var openmenu = {};
+read.InitMenu();
+</script>
+<script src="polyfill.min.user.js?V6.26.0"></script>
+<script charset="utf-8" src="Common.min.user.js?1615797286"></script>
+<script charset="utf-8" src="extra.user.js"></script>
+<span id="cnzz_stat_icon_1257832900" hidden></span><script src="https://s11.cnzz.com/z_stat.php?id=1257832900"></script>
+</body></html>
+
+[2021-03-16 09:39:21] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): testingedu.com.cn:8081
+[2021-03-16 09:39:21] DEBUG [_make_request: connectionpool.py, 396] http://testingedu.com.cn:8081 "POST /inter/HTTP/auth HTTP/1.1" 200 73
+[2021-03-16 09:39:21] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): testingedu.com.cn:8081
+[2021-03-16 09:39:21] DEBUG [_make_request: connectionpool.py, 396] http://testingedu.com.cn:8081 "POST /inter/HTTP/register HTTP/1.1" 200 41
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 9] 测试用例：test_user_reg_exist
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 10] url：http://testingedu.com.cn:8081/inter/HTTP/register
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 11] 请求参数：{"username": "jojo10", "pwd": "123456", "nickname": "giogio3", "descibe": "haha"}
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 12] 期望结果：{"status":401,"msg":"用户已被注册"}
+[2021-03-16 09:39:21] INFO [log_case_info: case_log.py, 13] 实际结果：{"status":401,"msg":"用户已被注册"}
+[2021-03-16 09:39:21] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): testingedu.com.cn:8081
+[2021-03-16 09:39:21] DEBUG [_make_request: connectionpool.py, 396] http://testingedu.com.cn:8081 "POST /inter/HTTP/auth HTTP/1.1" 200 73
+[2021-03-16 09:39:21] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): testingedu.com.cn:8081
+[2021-03-16 09:39:22] DEBUG [_make_request: connectionpool.py, 396] http://testingedu.com.cn:8081 "POST /inter/HTTP/register HTTP/1.1" 200 41
+[2021-03-16 09:39:22] INFO [log_case_info: case_log.py, 9] 测试用例：test_user_reg_normal
+[2021-03-16 09:39:22] INFO [log_case_info: case_log.py, 10] url：http://testingedu.com.cn:8081/inter/HTTP/register
+[2021-03-16 09:39:22] INFO [log_case_info: case_log.py, 11] 请求参数：{"username":"jojo18","pwd":"123456","nickname":"giogio3","descibe":"haha"}
+[2021-03-16 09:39:22] INFO [log_case_info: case_log.py, 12] 期望结果：{"status":200,"msg":"注册成功"}
+[2021-03-16 09:39:22] INFO [log_case_info: case_log.py, 13] 实际结果：{"status":401,"msg":"用户已被注册"}
+[2021-03-16 09:39:23] INFO [send_email: send_email.py, 28] 邮件发送完成！
+[2021-03-16 09:39:23] INFO [<module>: run.py, 13] ================================== 测试结束 ==================================
